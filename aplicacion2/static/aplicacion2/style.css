@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+font-family: courier;
+background-image: url("https://thumbs.dreamstime.com/b/december-calendar-cover-design-number-cube-green-fruit-light-blue-background-235030461.jpg");
+height: 100%;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-attachment: fixed;
+width: 100%;
+background-color: rgba(128, 128, 128, 0.247);
+
+}
+#titulo1{
+    color: red;
+    margin-top:5%;
+    text-align: center ;
+    font-size: xx-large;
+    font-family:helvetica, ;
+}
+
+
+#tiemporestante {
+margin-top:5%;
+margin-bottom: 2%;
+font-family: courier;
+color: black;
+padding: 1%;
+border-radius: 5px;
+border: solid 2px grey ;
+transition: border-width 0.6s linear;
+}
+
+#tiemporestante:hover { 
+    border-width: 20px; }
+
+#contenedor2{
+padding: 5px;
+}
+
+#contenedor3{
+    border: 2px solid grey ;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.404);
+}
+.datos{
+    font-size:xxx-large;
+}
+
+h3{
+    font-size: medium;
+}
+
+#mensajeBoton{
+    color:red;
+    border:2px solid black;
+    font-size: medium;
+    margin-left: 67%;
+    margin-right:13%;
+    font-family: 'Roboto', sans-serif;
+    padding:1%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border: 2px solid grey ;
+    border-radius: 5px;
+    
+    
+}
+
+#containerboton{
+margin-left:30%
+
+}
+#boton{
+    background-color: grey;
+}
+
+#boton :hover{
+background-color: white;
+color: grey
+}
+
+
+
+
+#textoContador{
+    background-color: grey;
+    padding: 1%;
+    margin-top:5%;
+    background-color: rgba(255, 255, 255, 0.404);
+    border: 2px solid grey ;
+    border-radius: 5px;
+    font-size:medium;
+    text-align: center;
+    font-family:'Roboto', sans-serif
+}
