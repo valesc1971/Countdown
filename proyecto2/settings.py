@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-2q@vmax&v^n54wrydd12=2$lbwlbz1zhv4rl^g)r*-3ed)oqs-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://valeriascountdown.herokuapp.com/"]
+ALLOWED_HOSTS = ['valeriascountdown.herokuapp.com']
 
 
 # Application definition
@@ -134,3 +134,5 @@ STATICFILES_DIRS = (
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
